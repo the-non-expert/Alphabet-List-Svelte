@@ -35,10 +35,11 @@ The Alphabet List component accepts the following props:
 
 1. An Array of objects with the key being "name" and it's value
 
-Events
+## Events
+
 The Alphabet List component emits the following events:
 
-None currently.
+1. None currently.
 
 ## Contributions
 

@@ -1,6 +1,6 @@
 {
   "name": "alphabet-list-svelte",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A reusable Svelte component for displaying a list of items with alphabet filtering.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",

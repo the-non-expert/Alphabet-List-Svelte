@@ -4,6 +4,12 @@ Alphabet List is a reusable Svelte component that provides an alphabet navigatio
 
 [Demo Link](https://master--alphabetlistdemo.netlify.app/)
 
+# Sponsor Alphabet-List-Svelte
+
+If you depend on this package, please consider supporting it. Thank you.
+
+<a href="https://buymeacoffee.com/ayushjhunjhunwala" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Installation
 
 You can install the Alphabet List component via npm:

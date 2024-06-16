@@ -2,7 +2,7 @@
 
 Alphabet List is a reusable Svelte component that provides an alphabet navigation bar and a list of items filtered by the selected letter.
 
-`[Demo Link](https://master--alphabetlistdemo.netlify.app/)`
+[Demo Link](https://master--alphabetlistdemo.netlify.app/)
 
 ## Installation
 

@@ -41,7 +41,47 @@ To use the Alphabet List component in your Svelte project, simply import it and 
 
 The Alphabet List component accepts the following props:
 
-1. An Array of objects with the key being "name" and it's value
+1. sampleItems (Array): An array of objects with a "name" key and its value. Example: [{ name: "Apple" }, { name: "Banana" }]
+2. customStyles (Object): Custom styles for various parts of the component. Example: { mainContainer: "background-color: red;", searchBar: "color: blue;" }
+3. onItemClick (Function): A callback function for item clicks, allowing you to customize actions for individual items.
+4. loading (Boolean): A boolean value to indicate a loading state. Default is false.
+5. emptyStateMessage (String): A message to display when no items match the filter criteria. Default is "No sample items found."
+6. searchBar (Boolean): A boolean value to enable or disable the search bar. Default is true.
+7. itemsPerPage (Number): The number of items to display per page for pagination. Default is 30.
+
+### Example with Custom Props
+
+```bash
+<script>
+  import AlphabetList from 'alphabet-list-svelte';
+
+  let sampleItems = [
+    { name: "Apple" },
+    { name: "Apricot" },
+    { name: "Avocado" },
+    { name: "Banana" },
+  ];
+
+  let customStyles = {
+    mainContainer: "padding: 2rem;",
+    searchBar: "border: 2px solid blue;",
+  };
+
+  function handleItemClick(item) {
+    console.log("Item clicked:", item);
+  }
+</script>
+
+<AlphabetList
+  {sampleItems}
+  {customStyles}
+  onItemClick={handleItemClick}
+  loading={false}
+  emptyStateMessage="No items found."
+  searchBar={true}
+  itemsPerPage={20}
+/>
+```
 
 ## Events
 

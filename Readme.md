@@ -1,8 +1,18 @@
 # Alphabet List Svelte Component
 
-Alphabet List is a reusable Svelte component that provides an alphabet navigation bar and a list of items filtered by the selected letter.
+Alphabet List is a versatile and customizable Svelte component designed to enhance your application's user experience. It provides an intuitive alphabet navigation bar, allowing users to quickly filter and navigate through a list of items by their starting letter. The component includes powerful features like search functionality, pagination, and customizable styles, making it an ideal solution for large datasets and interactive lists.
 
-[Demo Link](https://master--alphabetlistdemo.netlify.app/)
+[Demo Link](https://alphabet-list-svelte-demo.netlify.app/)
+
+# Key features
+
+1. Alphabet Navigation: Quickly filter items by selecting letters from an A-Z and # navigation bar.
+2. Search Bar: Integrated search functionality to filter items by name.
+3. Pagination: Efficiently handle large datasets with built-in pagination.
+4. Loading State: Display a loading indicator while data is being fetched or processed.
+5. Customizable Styles: Easily apply custom styles to match your application's design.
+6. Item Click Handling: Define custom actions when items are clicked.
+7. Empty State Message: Display a customizable message when no items match the filter criteria.
 
 # Sponsor Alphabet-List-Svelte
 

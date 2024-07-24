@@ -1,6 +1,6 @@
 {
   "name": "alphabet-list-svelte",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Alphabet List is a versatile and customizable Svelte component designed to enhance your application's user experience. It provides an intuitive alphabet navigation bar, allowing users to quickly filter and navigate through a list of items by their starting letter. The component includes powerful features like search functionality, pagination, and customizable styles, making it an ideal solution for large datasets and interactive lists.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",

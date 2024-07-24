@@ -25,6 +25,13 @@
     "vite": "^5.0.3"
   },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-non-expert/Alphabet-List-Svelte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/the-non-expert/Alphabet-List-Svelte/issues"
+  },
   "keywords": [
     "svelte",
     "alphabet",
